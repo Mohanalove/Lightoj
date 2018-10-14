@@ -12,8 +12,8 @@ int main()
     scanf("%d", &test);
     for(i = 1; i<= test; i++)
     {
-        scanf("%d%d", &a, &b);
-        printf("Case %d: %d\n", i, a + b);
+        scanf("%d%d", &a, &b);/*number of problems in two computers*/
+        printf("Case %d: %d\n", i, a + b);/*summation of problems*/
 
     }
     return 0;
